@@ -1,3 +1,4 @@
+package Questão02;
 //Nessa classe a lista encadeada vai ser usada como pilha
 public class Lista<T> {
     private No<T> cabeca;

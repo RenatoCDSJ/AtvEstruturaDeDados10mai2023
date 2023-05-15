@@ -11,7 +11,15 @@ estruturas de classe do Caminhão e da carga devem ser pensadas. Quando um objet
 for colocado na pilha ele deve saber qual o nível de criticidade da sua carga.*/
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello");
+        System.out.println("Início");
+        PCarga cargas = new PCarga();
+        PCaminhao caminhoes = new PCaminhao();
+        cargas.addCarga("1", "Carga com produtos raros");
+        caminhoes.addCaminhao(cargas.criticidade1.getCabeca().getDado(), "João, 19 anos", "Hotwells");
         
+        System.out.println(cargas.criticidade1.getCabeca().getDado().getInfo());
+        System.out.println(caminhoes.pilha.getCabeca().getDado().getInfoMotorista());
+        System.out.println(caminhoes.pilha.getCabeca().getDado().getInfoCaminhao());
+        System.out.println("fim");
     }
 }

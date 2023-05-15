@@ -1,3 +1,5 @@
+package Questão02;
+
 //Essa classe vai servir para fazer objetos que armazenem qualquer tipo de dado.
 public class No<T>{
     private T dado;
