@@ -1,3 +1,4 @@
+package Questão03;
 //Essa classe vai servir para fazer objetos que armazenem qualquer tipo de dado.
 //e linka pode licar esse obejto a um outro do mesmo tipo
 public class No<T>{

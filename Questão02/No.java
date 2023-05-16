@@ -1,6 +1,6 @@
 package Questão02;
-
 //Essa classe vai servir para fazer objetos que armazenem qualquer tipo de dado.
+//e linka pode licar esse obejto a um outro do mesmo tipo
 public class No<T>{
     private T dado;
     private No<T> proximo;
