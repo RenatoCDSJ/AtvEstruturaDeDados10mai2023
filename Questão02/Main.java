@@ -9,5 +9,12 @@ lógica de desfazer a última ação realizada pelo usuário, que consiste em re
 último elemento inserido na pilha e executar a ação inversa. A estrutura deve permitir
 desfazer até 16 ações de uma só vez, mas sempre respeitando a pilha de execuções.*/
 public class Main {
+    public static void main(String[] args) {
+        Controle<String> controle = new Controle<>();
+        controle.acao("Oi");
+        controle.acao("Olá");
+        controle.voltar(1);
+        controle.lista.print();
+    }
     
 }
